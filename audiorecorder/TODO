@@ -1,0 +1,16 @@
+- Checking flash editor and its scope
+- Basic Interface [Testing]
+- Flash programming
+- jQuery / JavaScript interaction
+- Saving the file through server
+- Designing the Final interface for demo
+
+- Passing parameters to flash
+- Completly remove flash interface
+- Push to git
+
+- Remove jquery copy and use google CDN
+- Find a way to encode in MP3 & OGG
+- Possibility to specify audio file path & name
+- The $(document).ready() part should be into index.html and not into the js file
+- We should supply the flash source into the project

@@ -1,0 +1,88 @@
+[2012/07/07 01:14:55] First request to the site. Sending user to login page
+[2012/07/07 01:14:57] Redirecting user to Authentication page
+[2012/07/07 01:14:57] new Authentication object is being created
+[2012/07/07 01:14:57] This is a first request and sending it for Request Token. Calling initiate() method
+[2012/07/07 01:14:57] Function initiate called
+[2012/07/07 01:15:00] Request Token is :ff3a9556-4e6a-4b9d-afb7-77f2e3afb67b
+[2012/07/07 01:15:00] Request Secret Token is :62d0a5c7-83b8-4969-b92d-b977e80085a2
+[2012/07/07 01:15:05] new Authentication object is being created
+[2012/07/07 01:15:05] Authentication object is unserialized form session
+[2012/07/07 01:15:05] Inside getAccessToken method
+[2012/07/07 01:15:07] Access Token is :65d2f94f-ea99-45db-82bd-eca9436d9aba
+[2012/07/07 01:15:07] Access Secret Token is :da01e1bf-2cf2-4484-9963-e9cb25c73114
+[2012/07/07 01:15:07] Verifier Token is :24551
+[2012/07/07 01:15:07] new Authentication object is being created
+[2012/07/07 01:15:07] Step 11111
+[2012/07/07 01:15:07] Step 22222
+[2012/07/07 01:15:07] Step 33333
+[2012/07/07 01:15:07] Json responseinfo is done <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <first-name>Gaurav</first-name>
+  <last-name>Khullar</last-name>
+  <headline>Sr. Manager, Business Development at Nokia</headline>
+  <site-standard-profile-request>
+    <url>http://www.linkedin.com/profile?viewProfile=&amp;key=7641931&amp;authToken=-apB&amp;authType=name&amp;trk=api*a194796*s202900*</url>
+  </site-standard-profile-request>
+</person>
+
+[2012/07/07 01:15:28] new Authentication object is being created
+[2012/07/07 01:15:28] Step 11111
+[2012/07/07 01:16:10] First request to the site. Sending user to login page
+[2012/07/07 01:16:12] Redirecting user to Authentication page
+[2012/07/07 01:16:12] new Authentication object is being created
+[2012/07/07 01:16:12] This is a first request and sending it for Request Token. Calling initiate() method
+[2012/07/07 01:16:12] Function initiate called
+[2012/07/07 01:16:13] Request Token is :80f5bf2a-8b98-462b-92f9-3113a1d584b2
+[2012/07/07 01:16:13] Request Secret Token is :29842734-682d-4f6f-b206-f0a4e278fba6
+[2012/07/07 01:16:19] new Authentication object is being created
+[2012/07/07 01:16:19] Authentication object is unserialized form session
+[2012/07/07 01:16:19] Inside getAccessToken method
+[2012/07/07 01:16:21] Access Token is :65d2f94f-ea99-45db-82bd-eca9436d9aba
+[2012/07/07 01:16:21] Access Secret Token is :da01e1bf-2cf2-4484-9963-e9cb25c73114
+[2012/07/07 01:16:21] Verifier Token is :79504
+[2012/07/07 01:16:21] new Authentication object is being created
+[2012/07/07 01:16:21] Step 11111
+[2012/07/07 01:16:21] Step 22222
+[2012/07/07 01:16:21] Step 33333
+[2012/07/07 01:16:21] Json responseinfo is done <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <first-name>Gaurav</first-name>
+  <last-name>Khullar</last-name>
+  <headline>Sr. Manager, Business Development at Nokia</headline>
+  <site-standard-profile-request>
+    <url>http://www.linkedin.com/profile?viewProfile=&amp;key=7641931&amp;authToken=-apB&amp;authType=name&amp;trk=api*a194796*s202900*</url>
+  </site-standard-profile-request>
+</person>
+
+[2012/07/07 01:18:40] First request to the site. Sending user to login page
+[2012/07/07 01:18:42] Redirecting user to Authentication page
+[2012/07/07 01:18:42] new Authentication object is being created
+[2012/07/07 01:18:42] This is a first request and sending it for Request Token. Calling initiate() method
+[2012/07/07 01:18:42] Function initiate called
+[2012/07/07 01:18:43] Request Token is :eadfcaee-d05e-4c1f-aa66-91355a6a8bf0
+[2012/07/07 01:18:43] Request Secret Token is :7143f758-f0a5-4653-be0a-f575ae926e66
+[2012/07/07 01:18:49] new Authentication object is being created
+[2012/07/07 01:18:49] Authentication object is unserialized form session
+[2012/07/07 01:18:49] Inside getAccessToken method
+[2012/07/07 01:18:51] Access Token is :65d2f94f-ea99-45db-82bd-eca9436d9aba
+[2012/07/07 01:18:51] Access Secret Token is :da01e1bf-2cf2-4484-9963-e9cb25c73114
+[2012/07/07 01:18:51] Verifier Token is :98745
+[2012/07/07 01:18:51] Redirecting user to Welcome page
+[2012/07/07 01:18:51] new Authentication object is being created
+[2012/07/07 01:18:51] Step 11111
+[2012/07/07 01:18:51] Step 22222
+[2012/07/07 01:18:51] Step 33333
+[2012/07/07 01:18:51] Json responseinfo is done <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+  <first-name>Gaurav</first-name>
+  <last-name>Khullar</last-name>
+  <headline>Sr. Manager, Business Development at Nokia</headline>
+  <site-standard-profile-request>
+    <url>http://www.linkedin.com/profile?viewProfile=&amp;key=7641931&amp;authToken=-apB&amp;authType=name&amp;trk=api*a194796*s202900*</url>
+  </site-standard-profile-request>
+</person>
+
+[2012/07/07 01:26:48] First request to the site. Sending user to login page
+[2012/07/07 01:37:19] First request to the site. Sending user to login page
+[2012/07/07 01:41:15] First request to the site. Sending user to login page
+[2012/07/07 01:42:08] First request to the site. Sending user to login page

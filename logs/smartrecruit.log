@@ -1,0 +1,4350 @@
+[2012/07/29 01:31:36] new Authentication object is being created
+[2012/07/29 01:31:36] Company Id :1070
+[2012/07/29 01:31:36] Company Name :Nokia
+[2012/07/29 01:31:36] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/29 01:31:36] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/29 01:31:36] Creating new database connection
+[2012/07/29 01:31:36] Called findByLinkedInID in WelcomepageView.php
+[2012/07/29 01:31:36] Inside else, recruiter not found in db
+[2012/07/29 01:31:36] Recruiter ID from DATABASE is :2
+[2012/07/29 01:31:36] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/29 01:31:36] Recruiter LastName from DATABASE is :Khullar
+[2012/07/29 01:31:36] Recruiter Job Id is: 2
+[2012/07/29 01:31:36] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/29 01:31:36] Creating new database connection
+[2012/07/29 01:31:38] PAGE_ID in request :QUOTIENT_DISPLAY
+[2012/07/29 01:31:38] new Authentication object is being created
+[2012/07/29 01:31:38] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/29 01:31:38] FirstName: Gaurav
+[2012/07/29 01:31:38] LastName: Khullar
+[2012/07/29 01:31:38] LinkedInID: U9BXs1SiKZ
+[2012/07/29 01:31:38] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/29 01:31:38] Portfolio Manager
+[2012/07/29 01:31:38] Project Manager
+[2012/07/29 01:31:38] Project Manager
+[2012/07/29 01:31:38] Software Consultant
+[2012/07/29 01:31:38] Educations :Array
+[2012/07/29 01:31:38] new Authentication object is being created
+[2012/07/29 01:31:44] Experience in Years11
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years10
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years0
+[2012/07/29 01:31:44] Seniority Weight:0
+[2012/07/29 01:31:44] Experience in Years14
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years8
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years14
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years20
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years17
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years15
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years13
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years13
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years10
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years18
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years17
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years11
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years15
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years9
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years27
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years14
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years17
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years13
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years10
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years19
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years11
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years13
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years6
+[2012/07/29 01:31:44] Seniority Weight:0.25
+[2012/07/29 01:31:44] Experience in Years21
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years23
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years4
+[2012/07/29 01:31:44] Seniority Weight:0.15
+[2012/07/29 01:31:44] Experience in Years10
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years17
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years8
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years14
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years19
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years13
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years15
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years14
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years11
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years23
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years8
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years15
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years9
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years6
+[2012/07/29 01:31:44] Seniority Weight:0.25
+[2012/07/29 01:31:44] Experience in Years9
+[2012/07/29 01:31:44] Seniority Weight:0.5
+[2012/07/29 01:31:44] Experience in Years16
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years15
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years11
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years11
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years12
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Experience in Years16
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years18
+[2012/07/29 01:31:44] Seniority Weight:1
+[2012/07/29 01:31:44] Experience in Years14
+[2012/07/29 01:31:44] Seniority Weight:0.75
+[2012/07/29 01:31:44] Number of connected CXO's of same industry: 2
+[2012/07/29 01:31:44] Number of connected SVP's of same industry: 1
+[2012/07/29 01:31:44] Number of connected VP's of same industry: 4
+[2012/07/29 01:31:44] Number of connected Directors's of same industry: 18
+[2012/07/29 01:31:44] maxEndDateInPresentCompany:2012
+[2012/07/29 01:31:44] minStartDateInPreviousCompany:2000
+[2012/07/29 01:42:26] new Authentication object is being created
+[2012/07/29 01:42:26] Company Id :1070
+[2012/07/29 01:42:26] Company Name :Nokia
+[2012/07/29 01:42:26] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/29 01:42:26] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/29 01:42:26] Creating new database connection
+[2012/07/29 01:42:26] Called findByLinkedInID in WelcomepageView.php
+[2012/07/29 01:42:26] Inside else, recruiter not found in db
+[2012/07/29 01:42:26] Recruiter ID from DATABASE is :2
+[2012/07/29 01:42:26] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/29 01:42:26] Recruiter LastName from DATABASE is :Khullar
+[2012/07/29 01:42:26] Recruiter Job Id is: 2
+[2012/07/29 01:42:26] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/29 01:42:26] Creating new database connection
+[2012/07/29 01:42:27] PAGE_ID in request :QUOTIENT_DISPLAY
+[2012/07/29 01:42:27] new Authentication object is being created
+[2012/07/29 01:42:28] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/29 01:42:28] FirstName: Gaurav
+[2012/07/29 01:42:28] LastName: Khullar
+[2012/07/29 01:42:28] LinkedInID: U9BXs1SiKZ
+[2012/07/29 01:42:28] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/29 01:42:28] Portfolio Manager
+[2012/07/29 01:42:28] Project Manager
+[2012/07/29 01:42:28] Project Manager
+[2012/07/29 01:42:28] Software Consultant
+[2012/07/29 01:42:28] Educations :Array
+[2012/07/29 01:42:28] new Authentication object is being created
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years20
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years27
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years21
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years23
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years4
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years23
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Number of connected CXO's of same industry: 2
+[2012/07/29 01:42:34] Number of connected SVP's of same industry: 1
+[2012/07/29 01:42:34] Number of connected VP's of same industry: 4
+[2012/07/29 01:42:34] Number of connected Directors's of same industry: 18
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years27
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years28
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years24
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years25
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years4
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years5
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years28
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years24
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years7
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years26
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years22
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years5
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years33
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years28
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years7
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years28
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years20
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years20
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years3
+[2012/07/29 01:42:34] Seniority Weight:0.05
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years23
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years5
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years5
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years7
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years21
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years10
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years20
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years15
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years4
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years7
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years22
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years21
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years14
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years16
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years6
+[2012/07/29 01:42:34] Seniority Weight:0.25
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years18
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years9
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years17
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years13
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years12
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years19
+[2012/07/29 01:42:34] Seniority Weight:1
+[2012/07/29 01:42:34] Experience in Years11
+[2012/07/29 01:42:34] Seniority Weight:0.75
+[2012/07/29 01:42:34] Experience in Years0
+[2012/07/29 01:42:34] Seniority Weight:0
+[2012/07/29 01:42:34] Experience in Years3
+[2012/07/29 01:42:34] Seniority Weight:0.05
+[2012/07/29 01:42:34] Experience in Years8
+[2012/07/29 01:42:34] Seniority Weight:0.5
+[2012/07/29 01:42:34] Experience in Years4
+[2012/07/29 01:42:34] Seniority Weight:0.15
+[2012/07/29 01:42:34] Number of connected CXO's of Different industry: 22
+[2012/07/29 01:42:34] Number of connected SVP's of Different industry: 4
+[2012/07/29 01:42:34] Number of connected VP's of Different industry: 13
+[2012/07/29 01:42:34] Number of connected Directors's of Different industry: 30
+[2012/07/29 01:42:34] maxEndDateInPresentCompany:2012
+[2012/07/29 01:42:34] minStartDateInPreviousCompany:2000
+[2012/07/29 09:27:24] PAGE_ID in request :AUTHENTICATION
+[2012/07/29 09:27:24] Redirecting user to Authentication page
+[2012/07/29 09:27:24] new Authentication object is being created
+[2012/07/29 09:27:24] This is a first request and sending it for Request Token. Calling initiate() method
+[2012/07/29 09:27:24] Function initiate called
+[2012/07/29 09:27:26] Request Token is :cbf4cbb9-86bb-483a-ac3e-cc2f057c280a
+[2012/07/29 09:27:26] Request Secret Token is :4548a52e-f531-4464-8498-657ba0f06a25
+[2012/07/29 09:27:34] new Authentication object is being created
+[2012/07/29 09:27:34] Authentication object is unserialized form session
+[2012/07/29 09:27:34] Inside getAccessToken method
+[2012/07/29 09:27:35] Access Token is :65d2f94f-ea99-45db-82bd-eca9436d9aba
+[2012/07/29 09:27:35] Access Secret Token is :da01e1bf-2cf2-4484-9963-e9cb25c73114
+[2012/07/29 09:27:35] Verifier Token is :47610
+[2012/07/29 09:27:35] PAGE_ID in request :WELCOME
+[2012/07/29 09:27:35] Redirecting user to Welcome page
+[2012/07/29 09:27:35] new Authentication object is being created
+[2012/07/29 09:27:36] Company Id :1070
+[2012/07/29 09:27:36] Company Name :Nokia
+[2012/07/29 09:27:36] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/29 09:27:36] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/29 09:27:36] Creating new database connection
+[2012/07/29 09:27:36] Called findByLinkedInID in WelcomepageView.php
+[2012/07/29 09:27:36] Inside else, recruiter not found in db
+[2012/07/29 09:27:36] Recruiter ID from DATABASE is :2
+[2012/07/29 09:27:36] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/29 09:27:36] Recruiter LastName from DATABASE is :Khullar
+[2012/07/29 09:27:36] Recruiter Job Id is: 2
+[2012/07/29 09:27:36] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/29 09:27:36] Creating new database connection
+[2012/07/29 09:28:09] PAGE_ID in request :CREATE_INTERVIEW
+[2012/07/29 09:28:09] Job Title is: Corporate Relationship Manager – Hiring Solutions
+[2012/07/29 09:28:09] Recruiter Id in questionbank is: 2
+[2012/07/29 09:28:09] About to run query : 'SELECT QUESTION_ID FROM QUESTION_BANK WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 09:28:09] Creating new database connection
+[2012/07/29 09:28:09] JsonString is:["0","OOPS","0","1","Island","0","2","Fruit","1","3","Flower","0"]
+[2012/07/29 09:28:09] JsonString is:["0","Choice 1","1","1","Choice 2","0","2","Choice 3","0","3","Choice 4","0"]
+[2012/07/29 09:28:09] JsonString is:["0","Option1","0","1","Option2","0","2","Option3","1","3","Option4","0"]
+[2012/07/29 09:28:09] JsonString is:["0","Option1","1","1","Option2","1","2","Option3","0","3","Option4","0"]
+[2012/07/29 09:28:09] JsonString is:["0","Option1","1","1","Option2","0","2","Option3","0","3","Option4","0"]
+[2012/07/29 09:28:09] JsonString is:["0","Option1","1","1","Option2","0","2","Option3","0","3","Option4","0"]
+[2012/07/29 09:28:09] JsonString is:["0","Option1","0","1","Option2","1","2","Option3","0","3","Option4","0"]
+[2012/07/29 09:28:27] TimeLimit:00:01:00
+[2012/07/29 09:28:27] Question Type:O
+[2012/07/29 09:28:27] TimeLimit:00:01:00
+[2012/07/29 09:28:27] Question Type:O
+[2012/07/29 09:28:27] TimeLimit:
+[2012/07/29 09:28:27] Question Type:
+[2012/07/29 09:28:27] TimeLimit:00:01:00
+[2012/07/29 09:28:27] Question Type:O
+[2012/07/29 09:28:27] TimeLimit:00:01:00
+[2012/07/29 09:28:27] Question Type:O
+[2012/07/29 09:28:27] TimeLimit:
+[2012/07/29 09:28:27] Question Type:
+[2012/07/29 09:45:14] Job Id:<?php echo $_REQUEST[\'JOB_ID\']; ?>
+[2012/07/29 09:45:14] Job Title: <?php echo $_REQUEST[\'JOB_TITLE\']; ?>
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO INTERVIEW (JOB_ID) VALUES (?)' with parameter : 'Array'
+[2012/07/29 09:45:14] Creating new database connection
+[2012/07/29 09:45:14] Question Text is:What is Objective C?
+[2012/07/29 09:45:14] Assessment Criteria is:
+[2012/07/29 09:45:14] Choice :Option1
+[2012/07/29 09:45:14] Is Correct Choice :1
+[2012/07/29 09:45:14] Choice :Option2
+[2012/07/29 09:45:14] Is Correct Choice :1
+[2012/07/29 09:45:14] Choice :Option3
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Choice :Option4
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Question Text is:What is your style of coding
+[2012/07/29 09:45:14] Assessment Criteria is:
+[2012/07/29 09:45:14] Choice :Option1
+[2012/07/29 09:45:14] Is Correct Choice :1
+[2012/07/29 09:45:14] Choice :Option2
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Choice :Option3
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Choice :Option4
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Question Text is:assdsdsdsd
+[2012/07/29 09:45:14] Assessment Criteria is:
+[2012/07/29 09:45:14] Choice :Option1
+[2012/07/29 09:45:14] Is Correct Choice :1
+[2012/07/29 09:45:14] Choice :Option2
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Choice :Option3
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Choice :Option4
+[2012/07/29 09:45:14] Is Correct Choice :0
+[2012/07/29 09:45:14] Creating new database connection
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO QUESTION (INTERVIEW_ID, STAGE_NO, DESCRIPTION, QUESTION_TYPE, ANSWER_TYPE, ASSESSMENT_CRITERIA, TIME_LIMIT) VALUES (?,?,?,?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO QUESTION (INTERVIEW_ID, STAGE_NO, DESCRIPTION, QUESTION_TYPE, ANSWER_TYPE, ASSESSMENT_CRITERIA, TIME_LIMIT) VALUES (?,?,?,?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO QUESTION (INTERVIEW_ID, STAGE_NO, DESCRIPTION, QUESTION_TYPE, ANSWER_TYPE, ASSESSMENT_CRITERIA, TIME_LIMIT) VALUES (?,?,?,?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] About to run query : 'INSERT INTO OBJECTIVE_CHOICES (QUESTION_ID, CHOICE_ID,CHOICE_DESCRIPTION,CORRECT_CHOICE) VALUES (?,?,?,?)' with parameter : 'Array'
+[2012/07/29 09:45:14] Creating new database connection
+[2012/07/29 09:45:14] questionId array is:509|510|511|
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:03:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:
+[2012/07/29 09:50:30] Question Type:
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:03:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:00:01:00
+[2012/07/29 09:50:30] Question Type:O
+[2012/07/29 09:50:30] TimeLimit:
+[2012/07/29 09:50:30] Question Type:
+[2012/07/29 10:02:42] Recruiter Id in questionbank is: 2
+[2012/07/29 10:02:42] About to run query : 'SELECT QUESTION_ID FROM QUESTION_BANK WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:02:42] Creating new database connection
+[2012/07/29 10:02:42] JsonString is:["0","OOPS","0","1","Island","0","2","Fruit","1","3","Flower","0"]
+[2012/07/29 10:02:42] JsonString is:["0","Choice 1","1","1","Choice 2","0","2","Choice 3","0","3","Choice 4","0"]
+[2012/07/29 10:02:42] JsonString is:["0","Option1","0","1","Option2","0","2","Option3","1","3","Option4","0"]
+[2012/07/29 10:02:42] JsonString is:["0","Option1","1","1","Option2","1","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:02:42] JsonString is:["0","Option1","1","1","Option2","0","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:02:42] JsonString is:["0","Option1","1","1","Option2","0","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:02:42] JsonString is:["0","Option1","0","1","Option2","1","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:03:18] TimeLimit:00:01:00
+[2012/07/29 10:03:18] Question Type:O
+[2012/07/29 10:03:19] TimeLimit:00:03:00
+[2012/07/29 10:03:19] Question Type:O
+[2012/07/29 10:03:19] TimeLimit:
+[2012/07/29 10:03:19] Question Type:
+[2012/07/29 10:03:19] TimeLimit:00:01:00
+[2012/07/29 10:03:19] Question Type:O
+[2012/07/29 10:03:19] TimeLimit:00:03:00
+[2012/07/29 10:03:19] Question Type:O
+[2012/07/29 10:03:19] TimeLimit:
+[2012/07/29 10:03:19] Question Type:
+[2012/07/29 10:03:51] Recruiter Id in questionbank is: 2
+[2012/07/29 10:03:51] About to run query : 'SELECT QUESTION_ID FROM QUESTION_BANK WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] About to run query : 'SELECT Q.INTERVIEW_ID, Q.STAGE_NO,Q.QUESTION_ID, Q.DESCRIPTION,Q.QUESTION_TYPE, Q.ANSWER_TYPE, Q.ASSESSMENT_CRITERIA, Q.TIME_LIMIT,
+		C.CHOICE_ID,C.CHOICE_DESCRIPTION,C.CORRECT_CHOICE
+		FROM QUESTION AS Q
+		LEFT JOIN OBJECTIVE_CHOICES AS C ON Q.QUESTION_ID = C.QUESTION_ID
+		WHERE Q.QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:03:51] Creating new database connection
+[2012/07/29 10:03:51] JsonString is:["0","OOPS","0","1","Island","0","2","Fruit","1","3","Flower","0"]
+[2012/07/29 10:03:51] JsonString is:["0","Choice 1","1","1","Choice 2","0","2","Choice 3","0","3","Choice 4","0"]
+[2012/07/29 10:03:51] JsonString is:["0","Option1","0","1","Option2","0","2","Option3","1","3","Option4","0"]
+[2012/07/29 10:03:51] JsonString is:["0","Option1","1","1","Option2","1","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:03:51] JsonString is:["0","Option1","1","1","Option2","0","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:03:51] JsonString is:["0","Option1","1","1","Option2","0","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:03:51] JsonString is:["0","Option1","0","1","Option2","1","2","Option3","0","3","Option4","0"]
+[2012/07/29 10:05:07] TimeLimit:00:01:00
+[2012/07/29 10:05:07] Question Type:O
+[2012/07/29 10:05:07] TimeLimit:00:03:00
+[2012/07/29 10:05:07] Question Type:O
+[2012/07/29 10:05:07] TimeLimit:
+[2012/07/29 10:05:07] Question Type:
+[2012/07/29 10:05:07] TimeLimit:00:01:00
+[2012/07/29 10:05:07] Question Type:O
+[2012/07/29 10:05:07] TimeLimit:00:03:00
+[2012/07/29 10:05:07] Question Type:O
+[2012/07/29 10:05:07] TimeLimit:
+[2012/07/29 10:05:07] Question Type:
+[2012/07/29 10:06:28] Job Id:<?php echo $_REQUEST[\'JOB_ID\']; ?>
+[2012/07/29 10:06:28] Job Title: <?php echo $_REQUEST[\'JOB_TITLE\']; ?>
+[2012/07/29 10:06:28] About to run query : 'INSERT INTO INTERVIEW (JOB_ID) VALUES (?)' with parameter : 'Array'
+[2012/07/29 10:06:28] Creating new database connection
+[2012/07/29 10:06:28] Question Text is:What is Android?
+[2012/07/29 10:06:28] Assessment Criteria is:
+[2012/07/29 10:06:28] Creating new database connection
+[2012/07/29 10:06:28] About to run query : 'INSERT INTO QUESTION (INTERVIEW_ID, STAGE_NO, DESCRIPTION, QUESTION_TYPE, ANSWER_TYPE, ASSESSMENT_CRITERIA, TIME_LIMIT) VALUES (?,?,?,?,?,?,?)' with parameter : 'Array'
+[2012/07/29 10:06:28] About to run query : 'INSERT INTO QUESTION_BANK (RECRUITER_ID, QUESTION_ID) VALUES (?,?)' with parameter : 'Array'
+[2012/07/29 10:06:28] Creating new database connection
+[2012/07/29 10:06:28] questionId array is:512|
+[2012/07/29 10:06:54] Job Id:<?php echo $_REQUEST[\'JOB_ID\']; ?>
+[2012/07/29 10:06:54] Job Title: <?php echo $_REQUEST[\'JOB_TITLE\']; ?>
+[2012/07/29 10:06:54] About to run query : 'INSERT INTO INTERVIEW (JOB_ID) VALUES (?)' with parameter : 'Array'
+[2012/07/29 10:06:54] Creating new database connection
+[2012/07/29 10:06:54] Question Text is:What is Objective C?
+[2012/07/29 10:06:54] Assessment Criteria is:
+[2012/07/29 10:06:54] Creating new database connection
+[2012/07/29 10:06:54] About to run query : 'INSERT INTO QUESTION (INTERVIEW_ID, STAGE_NO, DESCRIPTION, QUESTION_TYPE, ANSWER_TYPE, ASSESSMENT_CRITERIA, TIME_LIMIT) VALUES (?,?,?,?,?,?,?)' with parameter : 'Array'
+[2012/07/29 10:06:54] Creating new database connection
+[2012/07/29 10:06:54] questionId array is:512|513|
+[2012/07/29 10:08:54] Job Id:<?php echo $_REQUEST[\'JOB_ID\']; ?>
+[2012/07/29 10:08:54] Job Title: <?php echo $_REQUEST[\'JOB_TITLE\']; ?>
+[2012/07/29 10:08:54] About to run query : 'INSERT INTO INTERVIEW (JOB_ID) VALUES (?)' with parameter : 'Array'
+[2012/07/29 10:08:54] Creating new database connection
+[2012/07/29 10:08:54] Question Text is:What is Android??
+[2012/07/29 10:08:54] Assessment Criteria is:
+[2012/07/29 10:08:54] Creating new database connection
+[2012/07/29 10:08:54] Creating new database connection
+[2012/07/29 10:08:54] About to run query : 'UPDATE QUESTION SET DESCRIPTION = ?, ASSESSMENT_CRITERIA = ?,TIME_LIMIT = ? WHERE QUESTION_ID = ?' with parameter : 'Array'
+[2012/07/29 10:08:54] Creating new database connection
+[2012/07/29 10:08:54] questionId array is:512|513|
+[2012/07/29 10:09:30] Job Id:<?php echo $_REQUEST[\'JOB_ID\']; ?>
+[2012/07/29 10:09:30] Job Title: <?php echo $_REQUEST[\'JOB_TITLE\']; ?>
+[2012/07/29 10:09:30] About to run query : 'INSERT INTO INTERVIEW (JOB_ID) VALUES (?)' with parameter : 'Array'
+[2012/07/29 10:09:30] Creating new database connection
+[2012/07/29 10:09:30] Question Text is:asasdsd
+[2012/07/29 10:09:30] Assessment Criteria is:
+[2012/07/29 10:09:30] Creating new database connection
+[2012/07/29 10:09:30] About to run query : 'INSERT INTO QUESTION (INTERVIEW_ID, STAGE_NO, DESCRIPTION, QUESTION_TYPE, ANSWER_TYPE, ASSESSMENT_CRITERIA, TIME_LIMIT) VALUES (?,?,?,?,?,?,?)' with parameter : 'Array'
+[2012/07/29 10:09:30] Creating new database connection
+[2012/07/29 10:09:30] questionId array is:512|513|514|
+[2012/07/30 10:03:13] PAGE_ID in request :AUTHENTICATION
+[2012/07/30 10:03:13] Redirecting user to Authentication page
+[2012/07/30 10:03:13] new Authentication object is being created
+[2012/07/30 10:03:13] This is a first request and sending it for Request Token. Calling initiate() method
+[2012/07/30 10:03:13] Function initiate called
+[2012/07/30 10:03:16] Request Token is :ed485e34-661b-4046-872d-b3b9df16c5d9
+[2012/07/30 10:03:16] Request Secret Token is :aa3af76e-60bf-4e89-912c-0a84d6ec9b0a
+[2012/07/30 10:03:22] new Authentication object is being created
+[2012/07/30 10:03:22] Authentication object is unserialized form session
+[2012/07/30 10:03:22] Inside getAccessToken method
+[2012/07/30 10:03:23] Access Token is :65d2f94f-ea99-45db-82bd-eca9436d9aba
+[2012/07/30 10:03:23] Access Secret Token is :da01e1bf-2cf2-4484-9963-e9cb25c73114
+[2012/07/30 10:03:23] Verifier Token is :85621
+[2012/07/30 10:03:23] PAGE_ID in request :WELCOME
+[2012/07/30 10:03:23] Redirecting user to Welcome page
+[2012/07/30 10:03:23] new Authentication object is being created
+[2012/07/30 10:03:24] Company Id :1070
+[2012/07/30 10:03:24] Company Name :Nokia
+[2012/07/30 10:03:24] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/30 10:03:24] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/30 10:03:24] Creating new database connection
+[2012/07/30 10:03:24] Called findByLinkedInID in WelcomepageView.php
+[2012/07/30 10:03:24] Inside else, recruiter not found in db
+[2012/07/30 10:03:24] Recruiter ID from DATABASE is :2
+[2012/07/30 10:03:24] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/30 10:03:24] Recruiter LastName from DATABASE is :Khullar
+[2012/07/30 10:03:24] Recruiter Job Id is: 2
+[2012/07/30 10:03:24] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/30 10:03:24] Creating new database connection
+[2012/07/30 10:14:50] new Authentication object is being created
+[2012/07/30 03:27:00] PAGE_ID in request :AUTHENTICATION
+[2012/07/30 03:27:00] Redirecting user to Authentication page
+[2012/07/30 03:27:00] new Authentication object is being created
+[2012/07/30 03:27:00] This is a first request and sending it for Request Token. Calling initiate() method
+[2012/07/30 03:27:00] Function initiate called
+[2012/07/30 03:27:02] Request Token is :d9402c58-3909-4040-9f9a-66f94b04751a
+[2012/07/30 03:27:02] Request Secret Token is :96cde62d-79ac-4878-87b8-221d9473a4c7
+[2012/07/30 03:27:08] new Authentication object is being created
+[2012/07/30 03:27:08] Authentication object is unserialized form session
+[2012/07/30 03:27:08] Inside getAccessToken method
+[2012/07/30 03:27:09] Access Token is :65d2f94f-ea99-45db-82bd-eca9436d9aba
+[2012/07/30 03:27:09] Access Secret Token is :da01e1bf-2cf2-4484-9963-e9cb25c73114
+[2012/07/30 03:27:09] Verifier Token is :74481
+[2012/07/30 03:27:09] PAGE_ID in request :WELCOME
+[2012/07/30 03:27:09] Redirecting user to Welcome page
+[2012/07/30 03:27:09] new Authentication object is being created
+[2012/07/30 03:27:10] Company Id :1070
+[2012/07/30 03:27:10] Company Name :Nokia
+[2012/07/30 03:27:10] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/30 03:27:10] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/30 03:27:10] Creating new database connection
+[2012/07/30 03:27:10] Called findByLinkedInID in WelcomepageView.php
+[2012/07/30 03:27:10] Inside else, recruiter not found in db
+[2012/07/30 03:27:10] Recruiter ID from DATABASE is :2
+[2012/07/30 03:27:10] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/30 03:27:10] Recruiter LastName from DATABASE is :Khullar
+[2012/07/30 03:27:10] Recruiter Job Id is: 2
+[2012/07/30 03:27:10] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/30 03:27:10] Creating new database connection
+[2012/07/30 03:27:12] PAGE_ID in request :QUOTIENT_DISPLAY
+[2012/07/30 03:27:12] new Authentication object is being created
+[2012/07/30 03:27:12] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 03:27:12] FirstName: Gaurav
+[2012/07/30 03:27:12] LastName: Khullar
+[2012/07/30 03:27:12] LinkedInID: U9BXs1SiKZ
+[2012/07/30 03:27:12] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 03:27:12] Portfolio Manager
+[2012/07/30 03:27:12] Project Manager
+[2012/07/30 03:27:12] Project Manager
+[2012/07/30 03:27:12] Software Consultant
+[2012/07/30 03:27:12] Educations :Array
+[2012/07/30 03:27:12] new Authentication object is being created
+[2012/07/30 03:27:20] Number of connected CXO's of same industry: 2
+[2012/07/30 03:27:20] Number of connected SVP's of same industry: 1
+[2012/07/30 03:27:20] Number of connected VP's of same industry: 4
+[2012/07/30 03:27:20] Number of connected Directors's of same industry: 18
+[2012/07/30 03:27:20] maxEndDateInPresentCompany:2012
+[2012/07/30 03:27:20] minStartDateInPreviousCompany:2000
+[2012/07/30 03:27:20] Number of connected CXO's of Different industry: 22
+[2012/07/30 03:27:20] Number of connected SVP's of Different industry: 4
+[2012/07/30 03:27:20] Number of connected VP's of Different industry: 13
+[2012/07/30 03:27:20] Number of connected Directors's of Different industry: 30
+[2012/07/30 03:29:09] new Authentication object is being created
+[2012/07/30 03:29:10] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 03:29:10] FirstName: Gaurav
+[2012/07/30 03:29:10] LastName: Khullar
+[2012/07/30 03:29:10] LinkedInID: U9BXs1SiKZ
+[2012/07/30 03:29:10] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 03:29:10] Portfolio Manager
+[2012/07/30 03:29:10] Project Manager
+[2012/07/30 03:29:10] Project Manager
+[2012/07/30 03:29:10] Software Consultant
+[2012/07/30 03:29:10] Educations :Array
+[2012/07/30 03:29:10] new Authentication object is being created
+[2012/07/30 03:29:17] Number of connected CXO's of same industry: 2
+[2012/07/30 03:29:17] Number of connected SVP's of same industry: 1
+[2012/07/30 03:29:17] Number of connected VP's of same industry: 4
+[2012/07/30 03:29:17] Number of connected Directors's of same industry: 18
+[2012/07/30 03:29:17] maxEndDateInPresentCompany:2012
+[2012/07/30 03:29:17] minStartDateInPreviousCompany:2000
+[2012/07/30 03:29:17] Number of connected CXO's of Different industry: 22
+[2012/07/30 03:29:17] Number of connected SVP's of Different industry: 4
+[2012/07/30 03:29:17] Number of connected VP's of Different industry: 13
+[2012/07/30 03:29:17] Number of connected Directors's of Different industry: 30
+[2012/07/30 03:32:56] new Authentication object is being created
+[2012/07/30 03:32:58] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 03:32:58] FirstName: Gaurav
+[2012/07/30 03:32:58] LastName: Khullar
+[2012/07/30 03:32:58] LinkedInID: U9BXs1SiKZ
+[2012/07/30 03:32:58] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 03:32:58] Portfolio Manager
+[2012/07/30 03:32:58] Project Manager
+[2012/07/30 03:32:58] Project Manager
+[2012/07/30 03:32:58] Software Consultant
+[2012/07/30 03:32:58] Educations :Array
+[2012/07/30 03:32:58] new Authentication object is being created
+[2012/07/30 03:33:14] Number of connected CXO's of same industry: 2
+[2012/07/30 03:33:14] Number of connected SVP's of same industry: 1
+[2012/07/30 03:33:14] Number of connected VP's of same industry: 4
+[2012/07/30 03:33:14] Number of connected Directors's of same industry: 18
+[2012/07/30 03:33:14] maxEndDateInPresentCompany:2012
+[2012/07/30 03:33:14] minStartDateInPreviousCompany:2000
+[2012/07/30 03:33:14] Number of connected CXO's of Different industry: 22
+[2012/07/30 03:33:14] Number of connected SVP's of Different industry: 4
+[2012/07/30 03:33:14] Number of connected VP's of Different industry: 13
+[2012/07/30 03:33:14] Number of connected Directors's of Different industry: 30
+[2012/07/30 03:59:57] new Authentication object is being created
+[2012/07/30 03:59:59] Company Id :1070
+[2012/07/30 03:59:59] Company Name :Nokia
+[2012/07/30 03:59:59] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/30 03:59:59] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/30 03:59:59] Creating new database connection
+[2012/07/30 03:59:59] Called findByLinkedInID in WelcomepageView.php
+[2012/07/30 03:59:59] Inside else, recruiter not found in db
+[2012/07/30 03:59:59] Recruiter ID from DATABASE is :2
+[2012/07/30 03:59:59] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/30 03:59:59] Recruiter LastName from DATABASE is :Khullar
+[2012/07/30 03:59:59] Recruiter Job Id is: 2
+[2012/07/30 03:59:59] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/30 03:59:59] Creating new database connection
+[2012/07/30 04:00:01] new Authentication object is being created
+[2012/07/30 04:00:02] Company Id :1070
+[2012/07/30 04:00:02] Company Name :Nokia
+[2012/07/30 04:00:02] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/30 04:00:02] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/30 04:00:02] Creating new database connection
+[2012/07/30 04:00:02] Called findByLinkedInID in WelcomepageView.php
+[2012/07/30 04:00:02] Inside else, recruiter not found in db
+[2012/07/30 04:00:02] Recruiter ID from DATABASE is :2
+[2012/07/30 04:00:02] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/30 04:00:02] Recruiter LastName from DATABASE is :Khullar
+[2012/07/30 04:00:02] Recruiter Job Id is: 2
+[2012/07/30 04:00:02] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/30 04:00:02] Creating new database connection
+[2012/07/30 04:00:03] PAGE_ID in request :QUOTIENT_DISPLAY
+[2012/07/30 04:00:03] new Authentication object is being created
+[2012/07/30 04:00:06] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 04:00:06] FirstName: Gaurav
+[2012/07/30 04:00:06] LastName: Khullar
+[2012/07/30 04:00:06] LinkedInID: U9BXs1SiKZ
+[2012/07/30 04:00:06] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 04:00:06] Portfolio Manager
+[2012/07/30 04:00:06] Project Manager
+[2012/07/30 04:00:06] Project Manager
+[2012/07/30 04:00:06] Software Consultant
+[2012/07/30 04:00:06] Educations :Array
+[2012/07/30 04:00:06] new Authentication object is being created
+[2012/07/30 04:00:23] Number of connected CXO's of same industry: 2
+[2012/07/30 04:00:23] Number of connected SVP's of same industry: 1
+[2012/07/30 04:00:23] Number of connected VP's of same industry: 4
+[2012/07/30 04:00:23] Number of connected Directors's of same industry: 18
+[2012/07/30 04:00:23] maxEndDateInPresentCompany:2012
+[2012/07/30 04:00:23] minStartDateInPreviousCompany:2000
+[2012/07/30 04:00:23] Number of connected CXO's of Different industry: 22
+[2012/07/30 04:00:23] Number of connected SVP's of Different industry: 4
+[2012/07/30 04:00:23] Number of connected VP's of Different industry: 13
+[2012/07/30 04:00:23] Number of connected Directors's of Different industry: 30
+[2012/07/30 04:09:37] new Authentication object is being created
+[2012/07/30 04:09:37] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 04:09:37] FirstName: Gaurav
+[2012/07/30 04:09:37] LastName: Khullar
+[2012/07/30 04:09:37] LinkedInID: U9BXs1SiKZ
+[2012/07/30 04:09:37] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 04:09:37] Portfolio Manager
+[2012/07/30 04:09:37] Project Manager
+[2012/07/30 04:09:37] Project Manager
+[2012/07/30 04:09:37] Software Consultant
+[2012/07/30 04:09:37] Educations :Array
+[2012/07/30 04:09:37] new Authentication object is being created
+[2012/07/30 04:09:46] Number of connected CXO's of same industry: 2
+[2012/07/30 04:09:46] Number of connected SVP's of same industry: 1
+[2012/07/30 04:09:46] Number of connected VP's of same industry: 4
+[2012/07/30 04:09:46] Number of connected Directors's of same industry: 18
+[2012/07/30 04:09:46] maxEndDateInPresentCompany:2012
+[2012/07/30 04:09:46] minStartDateInPreviousCompany:2000
+[2012/07/30 04:09:46] Number of connected CXO's of Different industry: 22
+[2012/07/30 04:09:46] Number of connected SVP's of Different industry: 4
+[2012/07/30 04:09:46] Number of connected VP's of Different industry: 13
+[2012/07/30 04:09:46] Number of connected Directors's of Different industry: 30
+[2012/07/30 04:09:46] No of connections in same industry: 75
+[2012/07/30 04:09:46] Total number of connections: 382
+[2012/07/30 04:09:46] No of CXO's of Same Industry: 2
+[2012/07/30 04:09:46] No of SVPs of Same Industry: 1
+[2012/07/30 04:09:46] No of VPs of Same Industry: 4
+[2012/07/30 04:09:46] No of Directors of Same Industry: 18
+[2012/07/30 04:09:46] Max Experience Others of Same Industry: 27
+[2012/07/30 04:09:46] Self Experience: 12
+[2012/07/30 04:09:46] No of CXO's of Different Industry: 22
+[2012/07/30 04:09:46] No of SVP's of Different Industry: 4
+[2012/07/30 04:09:46] No of VP's of Different Industry: 13
+[2012/07/30 04:09:46] No of Director's of Different Industry: 30
+[2012/07/30 04:09:46] Max Experience Others of Different Industry: 33
+[2012/07/30 07:13:35] new Authentication object is being created
+[2012/07/30 07:13:36] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:13:36] FirstName: Gaurav
+[2012/07/30 07:13:36] LastName: Khullar
+[2012/07/30 07:13:36] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:13:36] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:13:36] Portfolio Manager
+[2012/07/30 07:13:36] Project Manager
+[2012/07/30 07:13:36] Project Manager
+[2012/07/30 07:13:36] Software Consultant
+[2012/07/30 07:13:36] Educations :Array
+[2012/07/30 07:13:36] new Authentication object is being created
+[2012/07/30 07:13:44] Number of connected CXO's of same industry: 2
+[2012/07/30 07:13:44] Number of connected SVP's of same industry: 1
+[2012/07/30 07:13:44] Number of connected VP's of same industry: 4
+[2012/07/30 07:13:44] Number of connected Directors's of same industry: 18
+[2012/07/30 07:13:44] maxEndDateInPresentCompany:2012
+[2012/07/30 07:13:44] minStartDateInPreviousCompany:2000
+[2012/07/30 07:13:44] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:13:44] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:13:44] Number of connected VP's of Different industry: 13
+[2012/07/30 07:13:44] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:13:44] No of connections in same industry: 75
+[2012/07/30 07:13:44] Total number of connections: 382
+[2012/07/30 07:13:44] No of CXO's of Same Industry: 2
+[2012/07/30 07:13:44] No of SVPs of Same Industry: 1
+[2012/07/30 07:13:44] No of VPs of Same Industry: 4
+[2012/07/30 07:13:44] No of Directors of Same Industry: 18
+[2012/07/30 07:13:44] Max Experience Others of Same Industry: 27
+[2012/07/30 07:13:44] Self Experience: 12
+[2012/07/30 07:13:44] No of CXO's of Different Industry: 22
+[2012/07/30 07:13:44] No of SVP's of Different Industry: 4
+[2012/07/30 07:13:44] No of VP's of Different Industry: 13
+[2012/07/30 07:13:44] No of Director's of Different Industry: 30
+[2012/07/30 07:13:44] Max Experience Others of Different Industry: 33
+[2012/07/30 07:14:11] new Authentication object is being created
+[2012/07/30 07:14:13] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:14:13] FirstName: Gaurav
+[2012/07/30 07:14:13] LastName: Khullar
+[2012/07/30 07:14:13] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:14:13] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:14:13] Portfolio Manager
+[2012/07/30 07:14:13] Project Manager
+[2012/07/30 07:14:13] Project Manager
+[2012/07/30 07:14:13] Software Consultant
+[2012/07/30 07:14:13] Educations :Array
+[2012/07/30 07:14:13] new Authentication object is being created
+[2012/07/30 07:14:18] Number of connected CXO's of same industry: 2
+[2012/07/30 07:14:18] Number of connected SVP's of same industry: 1
+[2012/07/30 07:14:18] Number of connected VP's of same industry: 4
+[2012/07/30 07:14:18] Number of connected Directors's of same industry: 18
+[2012/07/30 07:14:18] maxEndDateInPresentCompany:2012
+[2012/07/30 07:14:18] minStartDateInPreviousCompany:2000
+[2012/07/30 07:14:18] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:14:18] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:14:18] Number of connected VP's of Different industry: 13
+[2012/07/30 07:14:18] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:14:18] No of connections in same industry: 75
+[2012/07/30 07:14:18] Total number of connections: 382
+[2012/07/30 07:14:18] No of CXO's of Same Industry: 2
+[2012/07/30 07:14:18] No of SVPs of Same Industry: 1
+[2012/07/30 07:14:18] No of VPs of Same Industry: 4
+[2012/07/30 07:14:18] No of Directors of Same Industry: 18
+[2012/07/30 07:14:18] Max Experience Others of Same Industry: 27
+[2012/07/30 07:14:18] Self Experience: 12
+[2012/07/30 07:14:18] No of CXO's of Different Industry: 22
+[2012/07/30 07:14:18] No of SVP's of Different Industry: 4
+[2012/07/30 07:14:18] No of VP's of Different Industry: 13
+[2012/07/30 07:14:18] No of Director's of Different Industry: 30
+[2012/07/30 07:14:18] Max Experience Others of Different Industry: 33
+[2012/07/30 07:17:58] new Authentication object is being created
+[2012/07/30 07:18:00] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:18:00] FirstName: Gaurav
+[2012/07/30 07:18:00] LastName: Khullar
+[2012/07/30 07:18:00] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:18:00] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:18:00] Portfolio Manager
+[2012/07/30 07:18:00] Project Manager
+[2012/07/30 07:18:00] Project Manager
+[2012/07/30 07:18:00] Software Consultant
+[2012/07/30 07:18:00] Educations :Array
+[2012/07/30 07:18:00] new Authentication object is being created
+[2012/07/30 07:18:05] Number of connected CXO's of same industry: 2
+[2012/07/30 07:18:05] Number of connected SVP's of same industry: 1
+[2012/07/30 07:18:05] Number of connected VP's of same industry: 4
+[2012/07/30 07:18:05] Number of connected Directors's of same industry: 18
+[2012/07/30 07:18:05] maxEndDateInPresentCompany:2012
+[2012/07/30 07:18:05] minStartDateInPreviousCompany:2000
+[2012/07/30 07:18:05] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:18:05] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:18:05] Number of connected VP's of Different industry: 13
+[2012/07/30 07:18:05] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:18:05] No of connections in same industry: 75
+[2012/07/30 07:18:05] Total number of connections: 382
+[2012/07/30 07:18:05] No of CXO's of Same Industry: 2
+[2012/07/30 07:18:05] No of SVPs of Same Industry: 1
+[2012/07/30 07:18:05] No of VPs of Same Industry: 4
+[2012/07/30 07:18:05] No of Directors of Same Industry: 18
+[2012/07/30 07:18:05] Max Experience Others of Same Industry: 27
+[2012/07/30 07:18:05] Self Experience: 12
+[2012/07/30 07:18:05] No of CXO's of Different Industry: 22
+[2012/07/30 07:18:05] No of SVP's of Different Industry: 4
+[2012/07/30 07:18:05] No of VP's of Different Industry: 13
+[2012/07/30 07:18:05] No of Director's of Different Industry: 30
+[2012/07/30 07:18:05] Max Experience Others of Different Industry: 33
+[2012/07/30 07:33:09] new Authentication object is being created
+[2012/07/30 07:33:10] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:33:10] FirstName: Gaurav
+[2012/07/30 07:33:10] LastName: Khullar
+[2012/07/30 07:33:10] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:33:10] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:33:10] Portfolio Manager
+[2012/07/30 07:33:10] Project Manager
+[2012/07/30 07:33:10] Project Manager
+[2012/07/30 07:33:10] Software Consultant
+[2012/07/30 07:33:10] Educations :Array
+[2012/07/30 07:33:10] new Authentication object is being created
+[2012/07/30 07:33:15] Number of connected CXO's of same industry: 2
+[2012/07/30 07:33:15] Number of connected SVP's of same industry: 1
+[2012/07/30 07:33:15] Number of connected VP's of same industry: 4
+[2012/07/30 07:33:15] Number of connected Directors's of same industry: 18
+[2012/07/30 07:33:15] maxEndDateInPresentCompany:2012
+[2012/07/30 07:33:15] minStartDateInPreviousCompany:2000
+[2012/07/30 07:33:15] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:33:15] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:33:15] Number of connected VP's of Different industry: 13
+[2012/07/30 07:33:15] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:33:15] No of connections in same industry: 75
+[2012/07/30 07:33:15] Total number of connections: 382
+[2012/07/30 07:33:15] No of CXO's of Same Industry: 2
+[2012/07/30 07:33:15] No of SVPs of Same Industry: 1
+[2012/07/30 07:33:15] No of VPs of Same Industry: 4
+[2012/07/30 07:33:15] No of Directors of Same Industry: 18
+[2012/07/30 07:33:15] Max Experience Others of Same Industry: 27
+[2012/07/30 07:33:15] Self Experience: 12
+[2012/07/30 07:33:15] No of CXO's of Different Industry: 22
+[2012/07/30 07:33:15] No of SVP's of Different Industry: 4
+[2012/07/30 07:33:15] No of VP's of Different Industry: 13
+[2012/07/30 07:33:15] No of Director's of Different Industry: 30
+[2012/07/30 07:33:15] Max Experience Others of Different Industry: 33
+[2012/07/30 07:33:26] new Authentication object is being created
+[2012/07/30 07:33:27] Company Id :1070
+[2012/07/30 07:33:27] Company Name :Nokia
+[2012/07/30 07:33:27] Calling findByLinkedInID in WelcomepageView.php
+[2012/07/30 07:33:27] About to run query : 'SELECT RECRUITER_ID, FIRSTNAME, LASTNAME FROM RECRUITER WHERE LINKEDIN_ID=?' with parameter : 'Array'
+[2012/07/30 07:33:27] Creating new database connection
+[2012/07/30 07:33:27] Called findByLinkedInID in WelcomepageView.php
+[2012/07/30 07:33:27] Inside else, recruiter not found in db
+[2012/07/30 07:33:27] Recruiter ID from DATABASE is :2
+[2012/07/30 07:33:27] Recruiter FirstName from DATABASE is :Gaurav
+[2012/07/30 07:33:27] Recruiter LastName from DATABASE is :Khullar
+[2012/07/30 07:33:27] Recruiter Job Id is: 2
+[2012/07/30 07:33:27] About to run query : 'SELECT JOB_ID, RECRUITER_ID, COMPANY_ID, LINKEDIN_JOB_ID, TITLE,INTERVIEW_ID, INTERVIEW_URL, LOCATION, DESCRIPTION, IS_ACTIVE, POSTING_DATE, EXPIRATION_DATE,POSTED_BY_LINKEDIN_ID FROM JOB WHERE RECRUITER_ID = ?' with parameter : 'Array'
+[2012/07/30 07:33:27] Creating new database connection
+[2012/07/30 07:33:28] PAGE_ID in request :QUOTIENT_DISPLAY
+[2012/07/30 07:33:28] new Authentication object is being created
+[2012/07/30 07:33:29] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:33:29] FirstName: Gaurav
+[2012/07/30 07:33:29] LastName: Khullar
+[2012/07/30 07:33:29] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:33:29] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:33:29] Portfolio Manager
+[2012/07/30 07:33:29] Project Manager
+[2012/07/30 07:33:29] Project Manager
+[2012/07/30 07:33:29] Software Consultant
+[2012/07/30 07:33:29] Educations :Array
+[2012/07/30 07:33:29] new Authentication object is being created
+[2012/07/30 07:33:40] Number of connected CXO's of same industry: 2
+[2012/07/30 07:33:40] Number of connected SVP's of same industry: 1
+[2012/07/30 07:33:40] Number of connected VP's of same industry: 4
+[2012/07/30 07:33:40] Number of connected Directors's of same industry: 18
+[2012/07/30 07:33:40] maxEndDateInPresentCompany:2012
+[2012/07/30 07:33:40] minStartDateInPreviousCompany:2000
+[2012/07/30 07:33:40] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:33:40] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:33:40] Number of connected VP's of Different industry: 13
+[2012/07/30 07:33:40] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:33:40] No of connections in same industry: 75
+[2012/07/30 07:33:40] Total number of connections: 382
+[2012/07/30 07:33:40] No of CXO's of Same Industry: 2
+[2012/07/30 07:33:40] No of SVPs of Same Industry: 1
+[2012/07/30 07:33:40] No of VPs of Same Industry: 4
+[2012/07/30 07:33:40] No of Directors of Same Industry: 18
+[2012/07/30 07:33:40] Max Experience Others of Same Industry: 27
+[2012/07/30 07:33:40] Self Experience: 12
+[2012/07/30 07:33:40] No of CXO's of Different Industry: 22
+[2012/07/30 07:33:40] No of SVP's of Different Industry: 4
+[2012/07/30 07:33:40] No of VP's of Different Industry: 13
+[2012/07/30 07:33:40] No of Director's of Different Industry: 30
+[2012/07/30 07:33:40] Max Experience Others of Different Industry: 33
+[2012/07/30 07:42:40] new Authentication object is being created
+[2012/07/30 07:42:41] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:42:41] FirstName: Gaurav
+[2012/07/30 07:42:41] LastName: Khullar
+[2012/07/30 07:42:41] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:42:41] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:42:41] Portfolio Manager
+[2012/07/30 07:42:41] Project Manager
+[2012/07/30 07:42:41] Project Manager
+[2012/07/30 07:42:41] Software Consultant
+[2012/07/30 07:42:41] Educations :Array
+[2012/07/30 07:42:41] new Authentication object is being created
+[2012/07/30 07:42:51] Number of connected CXO's of same industry: 2
+[2012/07/30 07:42:51] Number of connected SVP's of same industry: 1
+[2012/07/30 07:42:51] Number of connected VP's of same industry: 4
+[2012/07/30 07:42:51] Number of connected Directors's of same industry: 18
+[2012/07/30 07:42:51] maxEndDateInPresentCompany:2012
+[2012/07/30 07:42:51] minStartDateInPreviousCompany:2000
+[2012/07/30 07:42:51] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:42:51] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:42:51] Number of connected VP's of Different industry: 13
+[2012/07/30 07:42:51] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:42:51] No of connections in same industry: 75
+[2012/07/30 07:42:51] Total number of connections: 382
+[2012/07/30 07:42:51] No of CXO's of Same Industry: 2
+[2012/07/30 07:42:51] No of SVPs of Same Industry: 1
+[2012/07/30 07:42:51] No of VPs of Same Industry: 4
+[2012/07/30 07:42:51] No of Directors of Same Industry: 18
+[2012/07/30 07:42:51] Max Experience Others of Same Industry: 27
+[2012/07/30 07:42:51] Self Experience: 12
+[2012/07/30 07:42:51] No of CXO's of Different Industry: 22
+[2012/07/30 07:42:51] No of SVP's of Different Industry: 4
+[2012/07/30 07:42:51] No of VP's of Different Industry: 13
+[2012/07/30 07:42:51] No of Director's of Different Industry: 30
+[2012/07/30 07:42:51] Max Experience Others of Different Industry: 33
+[2012/07/30 07:44:45] new Authentication object is being created
+[2012/07/30 07:44:46] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:44:46] FirstName: Gaurav
+[2012/07/30 07:44:46] LastName: Khullar
+[2012/07/30 07:44:46] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:44:46] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:44:46] Portfolio Manager
+[2012/07/30 07:44:46] Project Manager
+[2012/07/30 07:44:46] Project Manager
+[2012/07/30 07:44:46] Software Consultant
+[2012/07/30 07:44:46] Educations :Array
+[2012/07/30 07:44:46] new Authentication object is being created
+[2012/07/30 07:44:57] Number of connected CXO's of same industry: 2
+[2012/07/30 07:44:57] Number of connected SVP's of same industry: 1
+[2012/07/30 07:44:57] Number of connected VP's of same industry: 4
+[2012/07/30 07:44:57] Number of connected Directors's of same industry: 18
+[2012/07/30 07:44:57] maxEndDateInPresentCompany:2012
+[2012/07/30 07:44:57] minStartDateInPreviousCompany:2000
+[2012/07/30 07:44:57] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:44:57] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:44:57] Number of connected VP's of Different industry: 13
+[2012/07/30 07:44:57] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:44:57] No of connections in same industry: 75
+[2012/07/30 07:44:57] Total number of connections: 382
+[2012/07/30 07:44:57] No of CXO's of Same Industry: 2
+[2012/07/30 07:44:57] No of SVPs of Same Industry: 1
+[2012/07/30 07:44:57] No of VPs of Same Industry: 4
+[2012/07/30 07:44:57] No of Directors of Same Industry: 18
+[2012/07/30 07:44:57] Max Experience Others of Same Industry: 27
+[2012/07/30 07:44:57] Self Experience: 12
+[2012/07/30 07:44:57] No of CXO's of Different Industry: 22
+[2012/07/30 07:44:57] No of SVP's of Different Industry: 4
+[2012/07/30 07:44:57] No of VP's of Different Industry: 13
+[2012/07/30 07:44:57] No of Director's of Different Industry: 30
+[2012/07/30 07:44:57] Max Experience Others of Different Industry: 33
+[2012/07/30 07:47:04] new Authentication object is being created
+[2012/07/30 07:47:06] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:47:06] FirstName: Gaurav
+[2012/07/30 07:47:06] LastName: Khullar
+[2012/07/30 07:47:06] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:47:06] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:47:06] Portfolio Manager
+[2012/07/30 07:47:06] Project Manager
+[2012/07/30 07:47:06] Project Manager
+[2012/07/30 07:47:06] Software Consultant
+[2012/07/30 07:47:06] Educations :Array
+[2012/07/30 07:47:06] new Authentication object is being created
+[2012/07/30 07:47:11] Number of connected CXO's of same industry: 2
+[2012/07/30 07:47:11] Number of connected SVP's of same industry: 1
+[2012/07/30 07:47:11] Number of connected VP's of same industry: 4
+[2012/07/30 07:47:11] Number of connected Directors's of same industry: 18
+[2012/07/30 07:47:11] maxEndDateInPresentCompany:2012
+[2012/07/30 07:47:11] minStartDateInPreviousCompany:2000
+[2012/07/30 07:47:11] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:47:11] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:47:11] Number of connected VP's of Different industry: 13
+[2012/07/30 07:47:11] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:47:11] No of connections in same industry: 75
+[2012/07/30 07:47:11] Total number of connections: 382
+[2012/07/30 07:47:11] No of CXO's of Same Industry: 2
+[2012/07/30 07:47:11] No of SVPs of Same Industry: 1
+[2012/07/30 07:47:11] No of VPs of Same Industry: 4
+[2012/07/30 07:47:11] No of Directors of Same Industry: 18
+[2012/07/30 07:47:11] Max Experience Others of Same Industry: 27
+[2012/07/30 07:47:11] Self Experience: 12
+[2012/07/30 07:47:11] No of CXO's of Different Industry: 22
+[2012/07/30 07:47:11] No of SVP's of Different Industry: 4
+[2012/07/30 07:47:11] No of VP's of Different Industry: 13
+[2012/07/30 07:47:11] No of Director's of Different Industry: 30
+[2012/07/30 07:47:11] Max Experience Others of Different Industry: 33
+[2012/07/30 07:49:21] new Authentication object is being created
+[2012/07/30 07:49:22] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:49:22] FirstName: Gaurav
+[2012/07/30 07:49:22] LastName: Khullar
+[2012/07/30 07:49:22] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:49:22] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:49:22] Portfolio Manager
+[2012/07/30 07:49:22] Project Manager
+[2012/07/30 07:49:22] Project Manager
+[2012/07/30 07:49:22] Software Consultant
+[2012/07/30 07:49:22] Educations :Array
+[2012/07/30 07:49:22] new Authentication object is being created
+[2012/07/30 07:49:28] Number of connected CXO's of same industry: 2
+[2012/07/30 07:49:28] Number of connected SVP's of same industry: 1
+[2012/07/30 07:49:28] Number of connected VP's of same industry: 4
+[2012/07/30 07:49:28] Number of connected Directors's of same industry: 18
+[2012/07/30 07:49:28] maxEndDateInPresentCompany:2012
+[2012/07/30 07:49:28] minStartDateInPreviousCompany:2000
+[2012/07/30 07:49:28] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:49:28] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:49:28] Number of connected VP's of Different industry: 13
+[2012/07/30 07:49:28] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:49:28] No of connections in same industry: 75
+[2012/07/30 07:49:28] Total number of connections: 382
+[2012/07/30 07:49:28] No of CXO's of Same Industry: 2
+[2012/07/30 07:49:28] No of SVPs of Same Industry: 1
+[2012/07/30 07:49:28] No of VPs of Same Industry: 4
+[2012/07/30 07:49:28] No of Directors of Same Industry: 18
+[2012/07/30 07:49:28] Max Experience Others of Same Industry: 27
+[2012/07/30 07:49:28] Self Experience: 12
+[2012/07/30 07:49:28] No of CXO's of Different Industry: 22
+[2012/07/30 07:49:28] No of SVP's of Different Industry: 4
+[2012/07/30 07:49:28] No of VP's of Different Industry: 13
+[2012/07/30 07:49:28] No of Director's of Different Industry: 30
+[2012/07/30 07:49:28] Max Experience Others of Different Industry: 33
+[2012/07/30 07:50:11] new Authentication object is being created
+[2012/07/30 07:50:12] {
+  "educations": {
+    "_total": 3,
+    "values": [
+      {
+        "activities": "",
+        "degree": "MBA",
+        "endDate": {"year": 2008},
+        "fieldOfStudy": "Finance",
+        "id": 4071450,
+        "notes": "",
+        "schoolName": "Helsingin kauppakorkeakoulu",
+        "startDate": {"year": 2006}
+      },
+      {
+        "activities": "Vice Chairmain of IEE ( Institute of Electrical Engineers, London ) student chapter at Thapar Institute of Engineering and Technology.",
+        "degree": "B.E.",
+        "endDate": {"year": 2000},
+        "fieldOfStudy": "Electronics Engineering",
+        "id": 6783164,
+        "schoolName": "Thapar Institute of Engineering and Technology",
+        "startDate": {"year": 1996}
+      },
+      {
+        "endDate": {"year": 1994},
+        "id": 12426235,
+        "schoolName": "St Johns",
+        "startDate": {"year": 1983}
+      }
+    ]
+  },
+  "firstName": "Gaurav",
+  "following": {
+    "companies": {
+      "_total": 4,
+      "values": [
+        {
+          "id": 2017,
+          "name": "Qualcomm"
+        },
+        {
+          "id": 5141,
+          "name": "Exact"
+        },
+        {
+          "id": 842737,
+          "name": "Aalto Venture Garage"
+        },
+        {
+          "id": 1070,
+          "name": "Nokia"
+        }
+      ]
+    },
+    "industries": {
+      "_total": 1,
+      "values": [{"id": 8}]
+    },
+    "people": {"_total": 0},
+    "specialEditions": {"_total": 0}
+  },
+  "id": "U9BXs1SiKZ",
+  "industry": "Telecommunications",
+  "lastName": "Khullar",
+  "numConnections": 382,
+  "positions": {
+    "_total": 5,
+    "values": [
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "isCurrent": true,
+        "startDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "title": "Sr. Manager, Portfolio Planning/Business Development - Messaging"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 10,
+          "year": 2010
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "title": "Portfolio Manager"
+      },
+      {
+        "company": {
+          "id": 1070,
+          "name": "Nokia"
+        },
+        "endDate": {
+          "month": 6,
+          "year": 2009
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {
+          "id": 1016,
+          "name": "GE Healthcare"
+        },
+        "endDate": {
+          "month": 3,
+          "year": 2008
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "title": "Project Manager"
+      },
+      {
+        "company": {"name": "IT"},
+        "endDate": {
+          "month": 6,
+          "year": 2006
+        },
+        "isCurrent": false,
+        "startDate": {
+          "month": 6,
+          "year": 2000
+        },
+        "title": "Software Consultant"
+      }
+    ]
+  },
+  "specialties": "Portfolio Management, Financial Management & Capital Budgeting, Project Management, Team Management, Vendor Management."
+}
+[2012/07/30 07:50:12] FirstName: Gaurav
+[2012/07/30 07:50:12] LastName: Khullar
+[2012/07/30 07:50:12] LinkedInID: U9BXs1SiKZ
+[2012/07/30 07:50:12] Sr. Manager, Portfolio Planning/Business Development - Messaging
+[2012/07/30 07:50:12] Portfolio Manager
+[2012/07/30 07:50:12] Project Manager
+[2012/07/30 07:50:12] Project Manager
+[2012/07/30 07:50:12] Software Consultant
+[2012/07/30 07:50:12] Educations :Array
+[2012/07/30 07:50:12] new Authentication object is being created
+[2012/07/30 07:50:21] Number of connected CXO's of same industry: 2
+[2012/07/30 07:50:21] Number of connected SVP's of same industry: 1
+[2012/07/30 07:50:21] Number of connected VP's of same industry: 4
+[2012/07/30 07:50:21] Number of connected Directors's of same industry: 18
+[2012/07/30 07:50:21] maxEndDateInPresentCompany:2012
+[2012/07/30 07:50:21] minStartDateInPreviousCompany:2000
+[2012/07/30 07:50:21] Number of connected CXO's of Different industry: 22
+[2012/07/30 07:50:21] Number of connected SVP's of Different industry: 4
+[2012/07/30 07:50:21] Number of connected VP's of Different industry: 13
+[2012/07/30 07:50:21] Number of connected Directors's of Different industry: 30
+[2012/07/30 07:50:21] No of connections in same industry: 75
+[2012/07/30 07:50:21] Total number of connections: 382
+[2012/07/30 07:50:21] No of CXO's of Same Industry: 2
+[2012/07/30 07:50:21] No of SVPs of Same Industry: 1
+[2012/07/30 07:50:21] No of VPs of Same Industry: 4
+[2012/07/30 07:50:21] No of Directors of Same Industry: 18
+[2012/07/30 07:50:21] Max Experience Others of Same Industry: 27
+[2012/07/30 07:50:21] Self Experience: 12
+[2012/07/30 07:50:21] No of CXO's of Different Industry: 22
+[2012/07/30 07:50:21] No of SVP's of Different Industry: 4
+[2012/07/30 07:50:21] No of VP's of Different Industry: 13
+[2012/07/30 07:50:21] No of Director's of Different Industry: 30
+[2012/07/30 07:50:21] Max Experience Others of Different Industry: 33
